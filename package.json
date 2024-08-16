@@ -1,0 +1,19 @@
+{
+  "name": "msp-webhook",
+  "version": "1.0.0",
+  "description": "A plugin to send data to a website",
+  "keywords": [
+    "signalk-node-server-plugin",
+    "signalk-category-utility"
+  ],
+  "signalk-plugin-enabled-by-default": false,
+  "signalk": {
+    "displayName": "MSP Website Webhook"
+  },
+  "main": "plugin/index.js",
+  "author": "Matt Barraud",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
