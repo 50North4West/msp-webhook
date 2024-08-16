@@ -1,6 +1,6 @@
 {
   "name": "msp-webhook",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A plugin to send data to a website",
   "keywords": [
     "signalk-node-server-plugin",
@@ -13,6 +13,13 @@
   "main": "plugin/index.js",
   "author": "Matt Barraud",
   "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/50North4West/msp-webhook"
+  },
+  "bugs": {
+    "url": "https://github.com/50North4West/msp-webhook/issues"
+  },
   "dependencies": {
     "node-fetch": "^2.6.1"
   }
