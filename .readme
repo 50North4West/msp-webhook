@@ -1,0 +1,20 @@
+# MSP Webhook
+A plugin to send data from SignalK to a webhook.
+
+Sends the following SignalK data streams:
+*position: "navigation.position",
+*speed: "navigation.speedOverGround",
+*heading: "navigation.headingTrue",
+*log: "navigation.trip.log",
+*depth: "environment.depth.belowTransducer",
+*wTemp: "environment.water.temperature",
+*windSpeed: "environment.wind.speedApparent",
+*windDir: "environment.wind.angleApparent",
+*pressure: "environment.pressure"
+
+User selectable time frame for sending data, sends on the hour following the specified period e.g. if set at 10 minutes will be on the hour, ten-past and so on. 
+
+Authentication token sent as a URL parameter
+
+
+

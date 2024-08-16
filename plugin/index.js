@@ -12,7 +12,7 @@ const KEYS = {
   heading: "navigation.headingTrue",
   log: "navigation.trip.log",
   depth: "environment.depth.belowTransducer",
-  "environment.water.temperature": "environment.water.temperature",
+  wTemp: "environment.water.temperature",
   windSpeed: "environment.wind.speedApparent",
   windDir: "environment.wind.angleApparent",
   pressure: "environment.pressure",
