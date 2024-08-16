@@ -197,7 +197,7 @@ module.exports = function (app) {
     id: "msp-webhook",
     name: "Morvargh Sailing Project Webhook Exporter",
     description:
-      "A SignalK plugin that sends latitude/longitude and optional data to a webhook endpoint",
+      "A plugin to send data from SignalK to a webhook. If the server looses connection to the webhook the plugin will store the entry in a local file as JSON data; once the connection is restored it will send the stored data to the hook for processing (at the next scheduled attempt) and if successfully sent delete the record.",
 
     start: (settings, restartPlugin) => {
       app.debug("Starting MSP Webhook plugin 1.2.3");

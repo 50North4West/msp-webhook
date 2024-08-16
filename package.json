@@ -1,7 +1,7 @@
 {
   "name": "msp-webhook",
-  "version": "1.0.4",
-  "description": "A plugin to send data to a website",
+  "version": "1.0.5",
+  "description": "A plugin to send data to a website/webhook. Stores data locally if connection fails, then uploads later.",
   "keywords": [
     "signalk-node-server-plugin",
     "signalk-category-utility"

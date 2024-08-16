@@ -1,5 +1,5 @@
 # MSP Webhook
-A plugin to send data from SignalK to a webhook.
+A plugin to send data from SignalK to a webhook. If the server looses connection to the webhook the plugin will store the entry in a local file as JSON data; once the connection is restored it will send the stored data to the hook for processing (at the next scheduled attempt) and if successfully sent delete the record. 
 
 Sends the following SignalK data streams:
 
@@ -90,7 +90,7 @@ For an example of processing the data online, in PHP you can use the following c
             http_response_code(405); // Method Not Allowed
             echo json_encode(array('message' => 'Method Not Allowed'));
             exit();
-            
+
         }
 
 
