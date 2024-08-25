@@ -18,7 +18,13 @@ User selectable time frame for sending data, sends on the hour following the spe
 
 Authentication token sent as a URL parameter to allow a basic security check on the website
 
-> The plugin has been developed for Morvargh Sailing Project CIC to send data to their website about our adventures. Morvargh Sailing Project is a youth development organisation that helps young people become more confident, more resilient, more motivated and better able to communicate though volunteer led, life-changing sail training voyages. We are based in Fowey, Cornwall, UK. As a volunteer-based Sail Training organisation, we depend on the dedication and commitment of many afloat and shoreside volunteers to run voyages and assist in running all aspects of the organisation. We believe all young people should have the opportunity to participate in a transformational voyage with us. The voyage fee we pass on to trainees is significantly less than the actual cost to the organisation. To enable as many young people as possible to experience the benefits of Sail Training and to give them a different outlook on life, we need to raise the shortfall between the voyage fee and the actual cost of providing the voyage. If you can, please consider a small donation to support Morvargh Sailing Project. (https://sailadventure.co.uk/donate)
+> The plugin has been developed for Morvargh Sailing Project CIC to send data to their website about our adventures. (https://sailadventure.co.uk/)
+> 
+> Morvargh Sailing Project is a youth development organisation that helps young people become more confident, more resilient, more motivated and better able to communicate though volunteer led, life-changing sail training voyages. We are based in Fowey, Cornwall, UK. 
+> 
+> As a volunteer-based Sail Training organisation, we depend on the dedication and commitment of many afloat and shoreside volunteers to run voyages and assist in running all aspects of the organisation. We believe all young people should have the opportunity to participate in a transformational voyage with us. The voyage fee we pass on to trainees is significantly less than the actual cost to the organisation. To enable as many young people as possible to experience the benefits of Sail Training and to give them a different outlook on life, we need to raise the shortfall between the voyage fee and the actual cost of providing the voyage.
+>
+> If you can, please consider a small donation to support Morvargh Sailing Project. (https://sailadventure.co.uk/donate)
 
 For an example of processing the data online, in PHP you can use the following code:
 
