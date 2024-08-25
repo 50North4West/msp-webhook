@@ -18,6 +18,8 @@ User selectable time frame for sending data, sends on the hour following the spe
 
 Authentication token sent as a URL parameter to allow a basic security check on the website
 
+> ##### Morvargh Sailing Project
+> 
 > The plugin has been developed for Morvargh Sailing Project CIC to send data to their website about our adventures. (https://sailadventure.co.uk/)
 > 
 > Morvargh Sailing Project is a youth development organisation that helps young people become more confident, more resilient, more motivated and better able to communicate though volunteer led, life-changing sail training voyages. We are based in Fowey, Cornwall, UK. 
