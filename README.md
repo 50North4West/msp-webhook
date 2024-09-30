@@ -16,7 +16,9 @@ Sends the following SignalK data streams:
 
 User selectable time frame for sending data, sends on the hour following the specified period e.g. if set at 10 minutes will be on the hour, ten-past and so on. 
 
-Authentication token sent as a URL parameter to allow a basic security check on the website
+Authentication token sent as a URL parameter to allow a basic security check on the website.
+
+For an example of processing the data online, in PHP you can use the following code:
 
 > ##### Morvargh Sailing Project
 > 
@@ -27,8 +29,6 @@ Authentication token sent as a URL parameter to allow a basic security check on 
 > As a volunteer-based Sail Training organisation, we depend on the dedication and commitment of many afloat and shoreside volunteers to run voyages and assist in running all aspects of the organisation. We believe all young people should have the opportunity to participate in a transformational voyage with us. The voyage fee we pass on to trainees is significantly less than the actual cost to the organisation. To enable as many young people as possible to experience the benefits of Sail Training and to give them a different outlook on life, we need to raise the shortfall between the voyage fee and the actual cost of providing the voyage.
 >
 > If you can, please consider a small donation to support Morvargh Sailing Project. (https://sailadventure.co.uk/donate)
-
-For an example of processing the data online, in PHP you can use the following code:
 
         // Check if the request method is POST
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
